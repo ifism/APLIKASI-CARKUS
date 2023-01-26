@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CarKus</string>
+
+    <!-- Headings -->
+    <string name="headslide1">Bingung cara daftar kursus mobil?</string>
+    <string name="headslide2">Proses pendaftaran yang ribet?</string>
+    <string name="headslide3">Tempat daftarnya jauh?</string>
+    <string name="headslide4">Selamat Datang di CarKus</string>
+
+    <!-- Desc -->
+    <string name="descslide1">Dengan menggunakan aplikasi ini, <b>proses daftar kursus mobil</b> akan lebih mudah dan praktis</string>
+    <string name="descslide2">Proses daftar yang mudah hanya bermodalkan hp tanpa perlu ke lokasi kursusnya langsung, kemudian aplikasi akan mendata <b>riwayar paket kursus</b>  yang telah dipilih</string>
+    <string name="descslide3">Pada aplikasi ini tersedia <b>fitur kontak</b> sehingga memudahkan dalam menghubungi mentor mengenai jadwal latihan</string>
+    <string name="descslide4">Sebuah aplikasi <b>Pendaftaran Kursus Mobil</b> yang bertujuan untuk memudahkan pendaftaran kursus mobil</string>
+    <string name="descslide5">Sebuah aplikasi <b>Pendaftaran Kursus Mobil</b> yang bertujuan untuk memudahkan proses daftar kursus mobil. Berikut merupakan founder dari aplikasi ini:</string>
+
+    <!-- NavDraw -->
+    <string name="navigation_drawer_open">Buka Navigation Drawer</string>
+    <string name="navigation_drawer_close">Keluar dari Navigation Drawer</string>
+    <string name="title_activity_nav_menu">nav_menu</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="desc_onboarding1">Aplikasi ini akan membatu anda melakukan pendaftaran dengan mudah</string>
+    <string name="desc_onboarding2">Proses pendaftaran yang mudah dengan memilih paket yang tersedia dan melakukan proses daftar</string>
+    <string name="desc_onboarding3">Dengan aplikasi ini anda dapat melakukan proses daftar dimana saja dan kapan saja</string>
+    <string name="desc_onboarding4">Sebuah aplikasi <b>Pendaftaran Kursus Mobil</b> yang bertujuan untuk memudahkan proses daftar kursus mobil</string>
+    <string name="title_onboarding1">find a doctor</string>
+    <string name="title_onboarding2">consultation and treatment</string>
+    <string name="title_onboarding3">you can make a reservation</string>
+
+    <string name="btnNext">Next</string>
+    <string name="btnSkip">Skip</string>
+    <string name="btnStart">Start</string>
+
+    //Headings
+    <string name="heading_one">Quick &amp; Easy Payments</string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+
+</resources>

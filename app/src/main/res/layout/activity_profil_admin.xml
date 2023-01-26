@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout1"
+    android:background="@drawable/bgdashboard"
+    tools:context=".ProfilAdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                layout="@layout/main_toolbar"/>
+
+            <TextView
+                android:id="@+id/TVprofil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ic_nav_menu"
+                android:layout_marginTop="29dp"
+                android:fontFamily="@font/carter_one"
+                android:layout_marginLeft="25dp"
+                android:text="Profil"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic_profil_admin_fragment"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:civ_border_width="6dp"
+            app:civ_border_color="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/noimages" />
+
+        <TextView
+            android:id="@+id/email_profil_admin_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color2"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/titikdua1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:fontFamily="@font/poppins"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_profil_fragment" />
+
+            <TextView
+                android:id="@+id/nama_peng_profil_admin_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Ica"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/titikdua2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:fontFamily="@font/poppins"
+                android:layout_marginLeft="22dp"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titikdua1" />
+
+            <TextView
+                android:id="@+id/nama_lengkap_profil_admin_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins"
+                android:text="Anisa"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/titikdua3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="108dp"
+                android:fontFamily="@font/poppins"
+                android:text=":"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titikdua2" />
+
+            <TextView
+                android:id="@+id/nim_profil_admin_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins"
+                android:text="anisa@gmail.com" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Handphone"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/titikdua4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:fontFamily="@font/poppins"
+                android:layout_marginLeft="23dp"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titikdua3" />
+
+            <TextView
+                android:id="@+id/nohp_profil_admin_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins"
+                android:text="082096543210" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTNUp_profil_admin"
+            android:layout_width="275dp"
+            android:layout_height="43dp"
+            android:text="Ubah Data"
+            android:textAllCaps="false"
+            android:layout_marginTop="215dp"
+            android:layout_gravity="center"
+            android:elevation="2dp"
+            android:textSize="16dp"
+            android:background="@drawable/button_profil_bg"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_nav_menu">
+
+        <include layout="@layout/main_nav_drawer1" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoapk"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/logoapk"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Campin">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".onboarding"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailKontakStaffActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailPaketActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KontakAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaketAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailPaketPilihanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DaftarPaketActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaketUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PilihPaketActivity"
+            android:exported="true" />
+        <activity
+            android:name=".List_Kontak_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".List_Paket_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TambahKontakAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TambahPaketAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".List_Saran_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailDataUserAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".List_User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".List_Pendaftar_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".InfoAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BerandaAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateProfilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KontakActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SaranAplikasiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RiwayatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KontakMentorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKontakMentorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".whatsapp"
+            android:exported="true" />
+        <activity
+            android:name=".BerandaActivity"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".NavMenuActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_nav_menu" -->
+        <!-- android:theme="@style/Theme.Campin.NoActionBar" /> -->
+        <activity
+            android:name=".DaftarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
